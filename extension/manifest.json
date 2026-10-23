@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "TabVault",
+  "version": "1.0.0",
+  "description": "Save all open tabs as a PDF + clickable HTML in Downloads/TabVault, log when they were closed, then close them.",
+  "permissions": ["tabs", "storage", "nativeMessaging", "alarms"],
+  "background": {
+    "scripts": ["pdf.js", "report.js", "background.js"],
+    "persistent": false
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "TabVault – archive & close tabs",
+    "default_icon": { "16": "icons/icon16.png", "32": "icons/icon32.png", "48": "icons/icon48.png" }
+  },
+  "icons": { "48": "icons/icon48.png", "96": "icons/icon96.png", "128": "icons/icon128.png", "256": "icons/icon256.png", "512": "icons/icon512.png" },
+  "commands": {
+    "archive-all": {
+      "suggested_key": { "default": "Alt+Shift+A", "mac": "Alt+Shift+A" },
+      "description": "Archive & close all tabs"
+    },
+    "archive-window": {
+      "suggested_key": { "default": "Alt+Shift+W", "mac": "Alt+Shift+W" },
+      "description": "Archive & close tabs in this window"
+    }
+  }
+}

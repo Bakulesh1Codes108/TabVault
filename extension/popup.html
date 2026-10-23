@@ -1,0 +1,20 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="style.css">
+<style>body{width:320px;padding:14px}h1{font-size:16px;margin:0 0 2px}.row{display:flex;gap:8px;margin-top:10px}.row button{flex:1}
+.seg{display:flex;background:var(--bg);border-radius:9px;padding:3px;margin:10px 0}.seg button{flex:1;border:0;background:none;padding:6px}.seg button.on{background:var(--card);box-shadow:0 1px 3px #0002;font-weight:600}
+details{margin-top:10px}summary{cursor:pointer;color:var(--mut)}#status{margin-top:10px;min-height:18px}</style></head>
+<body>
+<h1>TabVault</h1><div class="mut" id="counts">Counting tabs…</div>
+<div class="seg"><button data-scope="all">All windows</button><button data-scope="window">This window</button></div>
+<button class="primary" id="go" style="width:100%;padding:12px">Save &amp; close tabs</button>
+<div id="status"></div>
+<div class="row"><button id="history">History</button><button id="folder">Open folder</button></div>
+<details><summary>Options</summary><div class="card" style="margin-top:8px">
+<label><input type="checkbox" id="keepPinned"> Keep pinned tabs open</label>
+<label><input type="checkbox" id="savePdf"> Save PDF</label>
+<label><input type="checkbox" id="saveHtml"> Save clickable HTML page</label>
+<label><input type="checkbox" id="closeTabs"> Close tabs after saving</label>
+<label>Badge warning at <input type="number" id="badgeAt" min="0" max="999"> tabs</label>
+<label><input type="checkbox" id="dailyOn"> Auto-archive daily at <input type="time" id="dailyTime"></label>
+<div class="mut" style="margin-top:6px">Shortcuts: ⌥⇧A all tabs · ⌥⇧W this window</div>
+</div></details>
+<script src="popup.js"></script></body></html>

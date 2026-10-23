@@ -1,0 +1,83 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [13 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Length 1678 >>
+stream
+BT /F2 22 Tf 0.13 0.28 0.75 rg 48 774.0 Td (TabVault - Closed Tabs) Tj ET
+BT /F1 11 Tf 0.35 0.35 0.4 rg 48 748.0 Td (Wed, 21 Oct, 2026 at 11:05:33 am  |  7 tab\(s\) in 1 window\(s\)) Tj ET
+0.8 0.82 0.88 RG 0.8 w 48 738 m 547 738 l S
+BT /F2 13 Tf 0.2 0.2 0.25 rg 48 711.0 Td (Window 1  \(7 tabs\)) Tj ET
+BT /F2 11 Tf 0.1 0.1 0.12 rg 48 689.0 Td (1. Attention Is All You Need - arXiv) Tj ET
+BT /F1 9 Tf 0.1 0.35 0.85 rg 62 677.0 Td (https://arxiv.org/abs/1706.03762) Tj ET
+BT /F2 11 Tf 0.1 0.1 0.12 rg 48 655.0 Td (2. The Illustrated Transformer - Jay Alammar) Tj ET
+BT /F1 9 Tf 0.1 0.35 0.85 rg 62 643.0 Td (https://jalammar.github.io/illustrated-transformer/) Tj ET
+BT /F2 11 Tf 0.1 0.1 0.12 rg 48 621.0 Td (3. Transformer \(deep learning\) - Wikipedia) Tj ET
+BT /F1 9 Tf 0.1 0.35 0.85 rg 62 609.0 Td (https://en.wikipedia.org/wiki/Transformer_\(deep_learning_architecture\)) Tj ET
+BT /F2 11 Tf 0.1 0.1 0.12 rg 48 587.0 Td (4. PyTorch nn.Transformer docs) Tj ET
+BT /F1 9 Tf 0.1 0.35 0.85 rg 62 575.0 Td (https://pytorch.org/docs/stable/generated/torch.nn.Transformer.html) Tj ET
+BT /F2 11 Tf 0.1 0.1 0.12 rg 48 553.0 Td (5. karpathy/nanoGPT - GitHub) Tj ET
+BT /F1 9 Tf 0.1 0.35 0.85 rg 62 541.0 Td (https://github.com/karpathy/nanoGPT) Tj ET
+BT /F2 11 Tf 0.1 0.1 0.12 rg 48 519.0 Td (6. Positional encoding explained - Medium) Tj ET
+BT /F1 9 Tf 0.1 0.35 0.85 rg 62 507.0 Td (https://medium.com/tag/transformers) Tj ET
+BT /F2 11 Tf 0.1 0.1 0.12 rg 48 485.0 Td (7. Papers with Code - Language Modelling) Tj ET
+BT /F1 9 Tf 0.1 0.35 0.85 rg 62 473.0 Td (https://paperswithcode.com/task/language-modelling) Tj ET
+BT /F1 8 Tf 0.55 0.55 0.6 rg 48 24 Td (TabVault  -  page 1 of 1) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Annot /Subtype /Link /Rect [60 674.0 547 687.0] /Border [0 0 0] /A << /S /URI /URI (https://arxiv.org/abs/1706.03762) >> >>
+endobj
+7 0 obj
+<< /Type /Annot /Subtype /Link /Rect [60 640.0 547 653.0] /Border [0 0 0] /A << /S /URI /URI (https://jalammar.github.io/illustrated-transformer/) >> >>
+endobj
+8 0 obj
+<< /Type /Annot /Subtype /Link /Rect [60 606.0 547 619.0] /Border [0 0 0] /A << /S /URI /URI (https://en.wikipedia.org/wiki/Transformer_\(deep_learning_architecture\)) >> >>
+endobj
+9 0 obj
+<< /Type /Annot /Subtype /Link /Rect [60 572.0 547 585.0] /Border [0 0 0] /A << /S /URI /URI (https://pytorch.org/docs/stable/generated/torch.nn.Transformer.html) >> >>
+endobj
+10 0 obj
+<< /Type /Annot /Subtype /Link /Rect [60 538.0 547 551.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/karpathy/nanoGPT) >> >>
+endobj
+11 0 obj
+<< /Type /Annot /Subtype /Link /Rect [60 504.0 547 517.0] /Border [0 0 0] /A << /S /URI /URI (https://medium.com/tag/transformers) >> >>
+endobj
+12 0 obj
+<< /Type /Annot /Subtype /Link /Rect [60 470.0 547 483.0] /Border [0 0 0] /A << /S /URI /URI (https://paperswithcode.com/task/language-modelling) >> >>
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 5 0 R /Annots [6 0 R 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R 12 0 R] >>
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000122 00000 n 
+0000000219 00000 n 
+0000000321 00000 n 
+0000002051 00000 n 
+0000002200 00000 n 
+0000002368 00000 n 
+0000002557 00000 n 
+0000002741 00000 n 
+0000002894 00000 n 
+0000003047 00000 n 
+0000003215 00000 n 
+trailer
+<< /Size 14 /Root 1 0 R /Info << /Title (TabVault Wed, 21 Oct, 2026 11:05:33 am) /Producer (TabVault) >> >>
+startxref
+3407
+%%EOF
