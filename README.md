@@ -1,12 +1,14 @@
 # TabVault
 
-**One click saves every open Safari tab to a clickable PDF, a searchable web page and a log — then closes them, so you can get back to work.**
+**One click saves every open browser tab to a clickable PDF, a searchable web page and a log — then closes them, so you can get back to work.**
 
-![macOS](https://img.shields.io/badge/macOS-Safari-2453d6) ![No Xcode](https://img.shields.io/badge/install-no%20Xcode-16794a) ![Offline](https://img.shields.io/badge/network-none-6b7080) ![License: MIT](https://img.shields.io/badge/license-MIT-f59e0b)
+Available for **macOS (Safari)** and **Windows (Chrome & Microsoft Edge)**.
+
+![macOS](https://img.shields.io/badge/macOS-Safari-2453d6) ![Windows](https://img.shields.io/badge/Windows-Chrome%20%7C%20Edge-0078d4) ![No Xcode](https://img.shields.io/badge/install-no%20Xcode-16794a) ![Offline](https://img.shields.io/badge/network-none-6b7080) ![License: MIT](https://img.shields.io/badge/license-MIT-f59e0b)
 
 ![Before: 21 tabs across 3 windows. After one click: one calm tab, everything saved](docs/screenshots/beforeafter.png)
 
-TabVault is a tiny macOS Dock app for people who keep dozens of tabs open "just in case". Open tabs are a to-do list that never ends: they pull your attention, slow Safari down and drain the battery. TabVault lets you close them **without the fear of losing anything** — every tab is kept in `~/Downloads/TabVault` with the date and time it was closed.
+TabVault is a tiny Mac Dock app (and a Chrome/Edge extension on Windows) for people who keep dozens of tabs open "just in case". Open tabs are a to-do list that never ends: they pull your attention, slow Safari down and drain the battery. TabVault lets you close them **without the fear of losing anything** — every tab is kept in `~/Downloads/TabVault` with the date and time it was closed.
 
 No Xcode, no dependencies, no background process, no network access. The whole app is a single JavaScript for Automation (JXA) file.
 
@@ -19,7 +21,8 @@ No Xcode, no dependencies, no background process, no network access. The whole a
 - [Use cases](#use-cases)
 - [See it in action](#see-it-in-action)
 - [Recommended routines](#recommended-routines)
-- [Features](#features) · [Timeline](#timeline) · [Install](#install) · [What gets saved](#what-gets-saved) · [How it works](#how-it-works) · [Privacy](#privacy)
+- [Windows version (Chrome & Edge)](#windows-version-chrome--edge)
+- [Features](#features) · [Timeline](#timeline) · [Install (Mac)](#install-mac) · [Windows](#windows-version-chrome--edge) · [What gets saved](#what-gets-saved) · [How it works](#how-it-works) · [Privacy](#privacy)
 
 ---
 
@@ -97,6 +100,18 @@ Good for printing, archiving or attaching to notes. Open [`docs/sample/Sample se
 
 ---
 
+## Windows version (Chrome & Edge)
+
+On a Windows laptop TabVault is a browser extension for **Google Chrome** and **Microsoft Edge**. It saves the same PDF, HTML page, CSV log and timeline into `Downloads\TabVault`, and adds a few extras: pinned tabs stay open, keyboard shortcuts (<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd>), a tab-count badge and an optional daily auto-archive.
+
+| Toolbar popup | History page with search |
+| --- | --- |
+| ![TabVault popup in Chrome](docs/screenshots/windows-popup.png) | ![TabVault history page with search](docs/screenshots/windows-history-search.png) |
+
+**Install:** download this repository as a ZIP, open the `windows` folder and double-click **`Install TabVault.bat`**, then click **Load unpacked** in the browser page it opens. Full guide: [windows/README.md](windows/README.md).
+
+---
+
 ## Features
 
 - **One-click archive from the Dock** – choose:
@@ -124,7 +139,7 @@ Good for printing, archiving or attaching to notes. Open [`docs/sample/Sample se
 
 The timeline is rebuilt every time you save, and every time you choose **Open TabVault timeline (history)**, so it always lists every PDF in the folder — including ones saved before this feature existed.
 
-## Install
+## Install (Mac)
 
 1. Download or clone this repository.
 2. Double-click **`Install TabVault.command`**.
@@ -178,6 +193,11 @@ TabVault/
 │   └── icons/
 ├── native/
 │   └── SafariWebExtensionHandler.swift  # Writes extension files to ~/Downloads/TabVault
+├── windows/
+│   ├── Install TabVault.bat   # Windows installer for Chrome / Edge
+│   ├── README.md              # Windows guide
+│   └── extension/             # Chrome / Edge extension (core.js shared with the Mac app)
+├── tools/sync-core.js         # Copies the shared PDF/HTML/CSV/timeline code into windows/extension
 ├── build-with-xcode.sh        # Builds the Safari extension app with Xcode
 ├── make_icons.py              # Regenerates the PNG icons (no libraries)
 └── docs/
@@ -198,4 +218,5 @@ TabVault has no network code. Tab titles and URLs are written only to files in y
 ## Requirements
 
 - macOS with Safari (uses the built-in `osacompile`, `iconutil`, `PlistBuddy` and `codesign`).
-- Xcode only for the optional extension build.
+- Xcode only for the optional Safari extension build.
+- **Windows:** Windows 10/11 with Google Chrome or Microsoft Edge 116 or newer.

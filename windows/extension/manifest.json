@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "TabVault",
+  "version": "1.0.0",
+  "description": "Save all open tabs as a clickable PDF, an HTML page and a log in Downloads\\TabVault, then close them to stay focused.",
+  "minimum_chrome_version": "116",
+  "permissions": ["tabs", "storage", "unlimitedStorage", "downloads", "downloads.open", "downloads.ui", "alarms"],
+  "background": { "service_worker": "background.js" },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "TabVault – save & close tabs",
+    "default_icon": { "16": "icons/icon16.png", "32": "icons/icon32.png", "48": "icons/icon48.png" }
+  },
+  "icons": { "16": "icons/icon16.png", "32": "icons/icon32.png", "48": "icons/icon48.png", "128": "icons/icon128.png" },
+  "commands": {
+    "archive-all": { "suggested_key": { "default": "Alt+Shift+A" }, "description": "Save & close all tabs" },
+    "archive-window": { "suggested_key": { "default": "Alt+Shift+W" }, "description": "Save & close tabs in this window" }
+  }
+}
